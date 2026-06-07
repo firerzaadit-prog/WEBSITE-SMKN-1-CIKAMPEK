@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website resmi SMKN 1 Cikampek - Sekolah Menengah Kejuruan Negeri terbaik di Cikampek, Karawang, Jawa Barat.">
+  <meta name="keywords" content="SMKN 1 Cikampek, SMK Cikampek, sekolah kejuruan Karawang">
+  <meta property="og:title" content="SMKN 1 Cikampek - Unggul, Berkarakter, Berdaya Saing">
+  <meta property="og:description" content="Website resmi SMKN 1 Cikampek">
+  <meta property="og:type" content="website">
+  <title>SMKN 1 Cikampek - Unggul, Berkarakter, Berdaya Saing</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div id="preloader" style="
+  position:fixed;inset:0;background:#fff;z-index:9999;
+  display:flex;align-items:center;justify-content:center;flex-direction:column;gap:16px;">
+  <div style="width:56px;height:56px;background:#F5C518;border-radius:12px;
+    display:flex;align-items:center;justify-content:center;
+    font-size:24px;font-weight:900;color:#1B2A4A;
+    font-family:'Playfair Display',serif;animation:spin 1s linear infinite;">S</div>
+  <p style="font-size:13px;color:#6B7280;font-family:sans-serif;">Memuat halaman...</p>
+</div>
+<style>@keyframes spin{0%,100%{transform:rotate(0deg)}25%{transform:rotate(-10deg)}75%{transform:rotate(10deg)}}</style>
+
+<!-- ═══════════ TOP BAR ═══════════ -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div class="topbar-left">
+      <div class="topbar-item">
+        <span>📍</span>
+        <span>Jl. Jl. Ahmad Yani No.1, Cikampek, Karawang, Jawa Barat</span>
+      </div>
+      <div class="topbar-item">
+        <span>📞</span>
+        <span>(0264) 316xxx</span>
+      </div>
+      <div class="topbar-item">
+        <span>✉️</span>
+        <span>info@smkn1cikampek.sch.id</span>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <span class="jam-digital" id="jam-digital">00:00:00</span>
+      <a href="https://instagram.com" target="_blank" class="topbar-social">📸</a>
+      <a href="https://facebook.com" target="_blank" class="topbar-social">📘</a>
+      <a href="https://youtube.com" target="_blank" class="topbar-social">▶️</a>
+      <a href="https://wa.me/62" target="_blank" class="topbar-social">💬</a>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ HEADER ═══════════ -->
+<header class="header">
+  <div class="container header-main">
+
+    <!-- LOGO -->
+    <a href="index.html" class="logo-area">
+      <img src="assets/images/logo/logo.png" alt="Logo SMKN 1 Cikampek"
+        onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <div class="logo-placeholder" style="display:none">S</div>
+      <div class="logo-text">
+        <h1>SMKN 1 Cikampek</h1>
+        <p>Karawang, Jawa Barat</p>
+        <div class="akreditasi">⭐ Akreditasi A</div>
+      </div>
+    </a>
+
+    <!-- NAVBAR DESKTOP -->
+    <nav class="navbar">
+
+      <div class="nav-item">
+        <a href="index.html" class="nav-link active">Beranda</a>
+      </div>
+
+      <div class="nav-item">
+        <button class="nav-link">
+          Profil Sekolah
+          <svg class="caret" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M4 6l4 4 4-4"/>
+          </svg>
+        </button>
+        <div class="dropdown">
+          <a href="profil/visi-misi.html">
+            <span class="dd-icon">🎯</span> Visi &amp; Misi
+          </a>
+          <a href="profil/fasilitas.html">
+            <span class="dd-icon">🏫</span> Fasilitas
+          </a>
+          <a href="profil/jurusan.html">
+            <span class="dd-icon">📚</span> Jurusan / Kompetensi Keahlian
+          </a>
+          <a href="profil/struktur-organisasi.html">
+            <span class="dd-icon">🗂️</span> Struktur Organisasi
+          </a>
+          <a href="profil/staff-guru.html">
+            <span class="dd-icon">👨‍🏫</span> Staff &amp; Guru
+          </a>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <button class="nav-link">
+          Keuangan
+          <svg class="caret" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M4 6l4 4 4-4"/>
+          </svg>
+        </button>
+        <div class="dropdown">
+          <a href="keuangan/bos.html">
+            <span class="dd-icon">💰</span> Dana BOS
+          </a>
+          <a href="keuangan/apbd.html">
+            <span class="dd-icon">📊</span> APBD
+          </a>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <button class="nav-link">
+          Informasi
+          <svg class="caret" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M4 6l4 4 4-4"/>
+          </svg>
+        </button>
+        <div class="dropdown">
+          <a href="informasi/berita.html">
+            <span class="dd-icon">📰</span> Berita Sekolah
+          </a>
+          <a href="informasi/prestasi.html">
+            <span class="dd-icon">🏆</span> Prestasi
+          </a>
+          <a href="informasi/ekskul.html">
+            <span class="dd-icon">🎭</span> Ekstrakurikuler
+          </a>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a href="https://kurikulum.kemdikbud.go.id" target="_blank" class="nav-link">
+          Kurikulum ↗
+        </a>
+      </div>
+
+    </nav>
+
+    <a href="#ppdb" class="btn-ppdb">🎓 Daftar PPDB</a>
+
+    <!-- HAMBURGER MOBILE -->
+    <button class="hamburger" aria-label="Buka Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu">
+    <div class="mobile-nav-item">
+      <a href="index.html" class="mobile-nav-link">🏠 Beranda</a>
+    </div>
+    <div class="mobile-nav-item">
+      <div class="mobile-nav-link" data-toggle="mob-profil">
+        📋 Profil Sekolah
+        <svg class="mob-caret" style="width:16px;height:16px;transition:transform 0.25s" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 16 16"><path d="M4 6l4 4 4-4"/></svg>
+      </div>
+      <div class="mobile-dropdown" id="mob-profil">
+        <a href="profil/visi-misi.html">🎯 Visi &amp; Misi</a>
+        <a href="profil/fasilitas.html">🏫 Fasilitas</a>
+        <a href="profil/jurusan.html">📚 Jurusan</a>
+        <a href="profil/struktur-organisasi.html">🗂️ Struktur Organisasi</a>
+        <a href="profil/staff-guru.html">👨‍🏫 Staff &amp; Guru</a>
+      </div>
+    </div>
+    <div class="mobile-nav-item">
+      <div class="mobile-nav-link" data-toggle="mob-keuangan">
+        💰 Keuangan
+        <svg class="mob-caret" style="width:16px;height:16px;transition:transform 0.25s" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 16 16"><path d="M4 6l4 4 4-4"/></svg>
+      </div>
+      <div class="mobile-dropdown" id="mob-keuangan">
+        <a href="keuangan/bos.html">💰 Dana BOS</a>
+        <a href="keuangan/apbd.html">📊 APBD</a>
+      </div>
+    </div>
+    <div class="mobile-nav-item">
+      <div class="mobile-nav-link" data-toggle="mob-informasi">
+        📰 Informasi
+        <svg class="mob-caret" style="width:16px;height:16px;transition:transform 0.25s" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 16 16"><path d="M4 6l4 4 4-4"/></svg>
+      </div>
+      <div class="mobile-dropdown" id="mob-informasi">
+        <a href="informasi/berita.html">📰 Berita</a>
+        <a href="informasi/prestasi.html">🏆 Prestasi</a>
+        <a href="informasi/ekskul.html">🎭 Ekstrakurikuler</a>
+      </div>
+    </div>
+    <div class="mobile-nav-item">
+      <a href="https://kurikulum.kemdikbud.go.id" target="_blank" class="mobile-nav-link">📖 Kurikulum ↗</a>
+    </div>
+    <div style="padding:16px 24px;">
+      <a href="#ppdb" class="btn-primary" style="width:100%;justify-content:center;">🎓 Daftar PPDB</a>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════ HERO SLIDER ═══════════ -->
+<section class="hero">
+
+  <!-- Slide 1 -->
+  <div class="hero-slide active">
+    <div class="hero-bg" style="background: linear-gradient(135deg,#1B2A4A 0%,#243558 40%,#1a3a6b 100%)"></div>
+    <div class="hero-overlay"></div>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="hero-slide">
+    <div class="hero-bg" style="background: linear-gradient(135deg,#1a3a6b 0%,#1B2A4A 60%,#0f2547 100%)"></div>
+    <div class="hero-overlay"></div>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="hero-slide">
+    <div class="hero-bg" style="background: linear-gradient(135deg,#243558 0%,#1a3a6b 40%,#1B2A4A 100%)"></div>
+    <div class="hero-overlay"></div>
+  </div>
+
+  <!-- Konten Hero -->
+  <div class="hero-content">
+    <div class="hero-inner">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        Terakreditasi A — BAN-SM 2024
+      </div>
+      <h2 class="hero-title">
+        Unggul dalam Keahlian,<br>
+        <span>Kuat dalam Karakter</span>
+      </h2>
+      <p class="hero-subtitle">
+        SMKN 1 Cikampek hadir membentuk generasi terampil dan berkarakter
+        yang siap bersaing di dunia industri dan melanjutkan ke jenjang pendidikan tinggi.
+      </p>
+      <div class="hero-actions">
+        <a href="profil/jurusan.html" class="btn-primary">📚 Lihat Jurusan →</a>
+        <a href="#ppdb" class="btn-outline-white">🎓 Daftar PPDB</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <strong
+            data-counter
+            data-target="1450"
+            data-suffix="+">0</strong>
+          <span>Siswa Aktif</span>
+        </div>
+        <div class="hero-stat">
+          <strong
+            data-counter
+            data-target="98"
+            data-suffix="%">0</strong>
+          <span>Tingkat Kelulusan</span>
+        </div>
+        <div class="hero-stat">
+          <strong
+            data-counter
+            data-target="12"
+            data-suffix="">0</strong>
+          <span>Kompetensi Keahlian</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slider Controls -->
+  <button class="slider-arrow prev" aria-label="Sebelumnya">&#8592;</button>
+  <button class="slider-arrow next" aria-label="Berikutnya">&#8594;</button>
+  <div class="slider-controls">
+    <button class="slider-dot active" aria-label="Slide 1"></button>
+    <button class="slider-dot" aria-label="Slide 2"></button>
+    <button class="slider-dot" aria-label="Slide 3"></button>
+  </div>
+
+</section>
+
+<!-- ═══════════ BANNER TICKER ═══════════ -->
+<div class="banner-ticker">
+  <div class="banner-ticker-inner">
+    <div class="banner-label">
+      📢 <span>PENGUMUMAN</span>
+    </div>
+    <div class="ticker-track">
+      <div class="ticker-content">
+        <div class="ticker-item"><a href="#">PPDB 2024/2025 dibuka mulai 1 Juni 2024 — Daftarkan diri sekarang!</a></div>
+        <div class="ticker-item"><a href="#">Juara 1 LKS Tingkat Provinsi Jawa Barat Bidang Teknik Komputer Jaringan</a></div>
+        <div class="ticker-item"><a href="#">Ujian Tengah Semester Ganjil TA 2024/2025 dilaksanakan tanggal 15-20 Juli</a></div>
+        <div class="ticker-item"><a href="#">Laporan Dana BOS Triwulan II 2024 telah dipublikasikan — klik untuk lihat</a></div>
+        <div class="ticker-item"><a href="#">Pendaftaran Ekskul baru dibuka untuk siswa kelas X — daftar sebelum 30 Juni</a></div>
+        <div class="ticker-item"><a href="#">Selamat kepada Tim Robotika SMKN 1 Cikampek atas prestasi di KRCI 2024</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ PROFIL SINGKAT ═══════════ -->
+<section class="section profil-singkat">
+  <div class="container">
+    <div class="profil-grid">
+      <div class="profil-img-wrap fade-up">
+        <div class="profil-img-placeholder">🏫</div>
+        <div class="profil-badge-float">
+          <strong>54</strong>
+          <span>Tahun Berdiri</span>
+        </div>
+      </div>
+      <div class="fade-up">
+        <span class="section-label">Tentang Kami</span>
+        <h2 class="section-title">Profil SMKN 1 Cikampek</h2>
+        <p class="section-subtitle">
+          Berdiri sejak 1970, SMKN 1 Cikampek telah menjadi pilihan utama keluarga di Karawang dan sekitarnya
+          dalam mencetak lulusan yang terampil, berkarakter, dan siap kerja.
+        </p>
+        <div class="profil-features">
+          <div class="profil-feature">
+            <div class="profil-feature-icon">🏆</div>
+            <div class="profil-feature-text">
+              <p>Akreditasi A</p>
+              <p>BAN-SM 2024</p>
+            </div>
+          </div>
+          <div class="profil-feature">
+            <div class="profil-feature-icon">🎓</div>
+            <div class="profil-feature-text">
+              <p>12 Jurusan</p>
+              <p>Kompetensi Keahlian</p>
+            </div>
+          </div>
+          <div class="profil-feature">
+            <div class="profil-feature-icon">🏭</div>
+            <div class="profil-feature-text">
+              <p>Link & Match</p>
+              <p>200+ Mitra Industri</p>
+            </div>
+          </div>
+          <div class="profil-feature">
+            <div class="profil-feature-icon">💻</div>
+            <div class="profil-feature-text">
+              <p>Fasilitas Modern</p>
+              <p>Lab & Workshop Lengkap</p>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top:28px;display:flex;gap:14px;flex-wrap:wrap">
+          <a href="profil/visi-misi.html" class="btn-primary">Baca Visi &amp; Misi</a>
+          <a href="profil/fasilitas.html" class="btn-lihat-semua">Lihat Fasilitas →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ STATS BAR ═══════════ -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item fade-up">
+        <span class="stat-icon">👨‍🎓</span>
+        <strong data-counter data-target="1450" data-suffix="+">0</strong>
+        <span>Siswa Aktif</span>
+      </div>
+      <div class="stat-item fade-up">
+        <span class="stat-icon">👨‍🏫</span>
+        <strong data-counter data-target="95" data-suffix="">0</strong>
+        <span>Guru &amp; Staff</span>
+      </div>
+      <div class="stat-item fade-up">
+        <span class="stat-icon">🏆</span>
+        <strong data-counter data-target="240" data-suffix="+">0</strong>
+        <span>Prestasi Diraih</span>
+      </div>
+      <div class="stat-item fade-up">
+        <span class="stat-icon">🏭</span>
+        <strong data-counter data-target="200" data-suffix="+">0</strong>
+        <span>Mitra Industri</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ JURUSAN ═══════════ -->
+<section class="section section-alt" id="jurusan">
+  <div class="container">
+    <div class="section-header-row">
+      <div class="fade-up">
+        <span class="section-label">Program Keahlian</span>
+        <h2 class="section-title">Jurusan / Kompetensi Keahlian</h2>
+        <p class="section-subtitle">Pilih jurusan yang sesuai minat dan bakatmu untuk meraih masa depan terbaik.</p>
+      </div>
+      <a href="profil/jurusan.html" class="btn-lihat-semua fade-up">Lihat Semua →</a>
+    </div>
+    <div class="jurusan-grid">
+
+      <div class="jurusan-card fade-up">
+        <div class="jurusan-card-header" style="background:linear-gradient(135deg,#2563EB,#1d4ed8)">
+          <div class="jurusan-icon">💻</div>
+          <h3>Teknik Komputer &amp; Jaringan</h3>
+          <p>TKJ</p>
+        </div>
+        <div class="jurusan-card-body">
+          <p>Mempelajari instalasi, konfigurasi, dan administrasi jaringan komputer serta sistem operasi.</p>
+          <div class="jurusan-stats">
+            <div class="jurusan-stat"><strong>3</strong><span>Rombel</span></div>
+            <div class="jurusan-stat"><strong>108</strong><span>Siswa</span></div>
+            <div class="jurusan-stat"><strong>8</strong><span>Guru</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="jurusan-card fade-up">
+        <div class="jurusan-card-header" style="background:linear-gradient(135deg,#16A34A,#15803d)">
+          <div class="jurusan-icon">⚡</div>
+          <h3>Teknik Instalasi Tenaga Listrik</h3>
+          <p>TITL</p>
+        </div>
+        <div class="jurusan-card-body">
+          <p>Mempelajari instalasi, pemeliharaan, dan perbaikan sistem ketenagalistrikan bangunan dan industri.</p>
+          <div class="jurusan-stats">
+            <div class="jurusan-stat"><strong>3</strong><span>Rombel</span></div>
+            <div class="jurusan-stat"><strong>108</strong><span>Siswa</span></div>
+            <div class="jurusan-stat"><strong>7</strong><span>Guru</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="jurusan-card fade-up">
+        <div class="jurusan-card-header" style="background:linear-gradient(135deg,#DC2626,#b91c1c)">
+          <div class="jurusan-icon">🔧</div>
+          <h3>Teknik Pemesinan</h3>
+          <p>TP</p>
+        </div>
+        <div class="jurusan-card-body">
+          <p>Mempelajari proses produksi komponen mesin menggunakan mesin konvensional dan CNC.</p>
+          <div class="jurusan-stats">
+            <div class="jurusan-stat"><strong>3</strong><span>Rombel</span></div>
+            <div class="jurusan-stat"><strong>108</strong><span>Siswa</span></div>
+            <div class="jurusan-stat"><strong>9</strong><span>Guru</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="jurusan-card fade-up">
+        <div class="jurusan-card-header" style="background:linear-gradient(135deg,#7C3AED,#6d28d9)">
+          <div class="jurusan-icon">🎨</div>
+          <h3>Desain Komunikasi Visual</h3>
+          <p>DKV</p>
+        </div>
+        <div class="jurusan-card-body">
+          <p>Mempelajari desain grafis, fotografi, videografi, dan produksi media komunikasi visual.</p>
+          <div class="jurusan-stats">
+            <div class="jurusan-stat"><strong>2</strong><span>Rombel</span></div>
+            <div class="jurusan-stat"><strong>72</strong><span>Siswa</span></div>
+            <div class="jurusan-stat"><strong>6</strong><span>Guru</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="jurusan-card fade-up">
+        <div class="jurusan-card-header" style="background:linear-gradient(135deg,#0891B2,#0e7490)">
+          <div class="jurusan-icon">📊</div>
+          <h3>Akuntansi &amp; Keuangan Lembaga</h3>
+          <p>AKL</p>
+        </div>
+        <div class="jurusan-card-body">
+          <p>Mempelajari pembukuan, perpajakan, perbankan, dan manajemen keuangan perusahaan.</p>
+          <div class="jurusan-stats">
+            <div class="jurusan-stat"><strong>3</strong><span>Rombel</span></div>
+            <div class="jurusan-stat"><strong>108</strong><span>Siswa</span></div>
+            <div class="jurusan-stat"><strong>7</strong><span>Guru</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="jurusan-card fade-up">
+        <div class="jurusan-card-header" style="background:linear-gradient(135deg,#D97706,#b45309)">
+          <div class="jurusan-icon">🤝</div>
+          <h3>Otomatisasi &amp; Tata Kelola Perkantoran</h3>
+          <p>OTKP</p>
+        </div>
+        <div class="jurusan-card-body">
+          <p>Mempelajari administrasi perkantoran, manajemen arsip, dan teknologi perkantoran modern.</p>
+          <div class="jurusan-stats">
+            <div class="jurusan-stat"><strong>2</strong><span>Rombel</span></div>
+            <div class="jurusan-stat"><strong>72</strong><span>Siswa</span></div>
+            <div class="jurusan-stat"><strong>6</strong><span>Guru</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ BERITA + PENGUMUMAN ═══════════ -->
+<section class="section" id="berita">
+  <div class="container">
+    <div class="section-header-row">
+      <div class="fade-up">
+        <span class="section-label">Terbaru</span>
+        <h2 class="section-title">Berita Sekolah</h2>
+      </div>
+      <a href="informasi/berita.html" class="btn-lihat-semua fade-up">Lihat Semua →</a>
+    </div>
+    <div class="berita-layout">
+
+      <!-- Kolom Berita Utama -->
+      <div class="berita-utama-grid">
+
+        <!-- Berita Featured -->
+        <div class="berita-card berita-card-featured fade-up">
+          <div class="berita-img">
+            <div class="berita-kategori">🏆 Prestasi</div>
+            🎓
+          </div>
+          <div class="berita-body">
+            <div class="berita-meta">
+              <span>📅 10 Juni 2024</span>
+              <span>·</span>
+              <span>👁 485 views</span>
+            </div>
+            <h3><a href="#">Siswa SMKN 1 Cikampek Raih Juara 1 LKS Tingkat Provinsi Jawa Barat Bidang Teknik Komputer Jaringan</a></h3>
+            <p>Atas kebanggaan sekolah, Ahmad Fauzi berhasil meraih juara pertama dalam Lomba Kompetensi Siswa (LKS) tingkat Provinsi Jawa Barat yang diikuti oleh ratusan peserta dari 27 kabupaten/kota.</p>
+          </div>
+        </div>
+
+        <!-- Berita Kecil 1 -->
+        <div class="berita-card fade-up">
+          <div class="berita-img" style="background:linear-gradient(135deg,#16A34A,#0f5e30)">
+            <div class="berita-kategori">🌿 Lingkungan</div>
+            🌳
+          </div>
+          <div class="berita-body">
+            <div class="berita-meta"><span>📅 5 Juni 2024</span></div>
+            <h3><a href="#">Program Adiwiyata: SMKN 1 Cikampek Raih Predikat Sekolah Hijau</a></h3>
+            <p>Program lingkungan sekolah berhasil mendapat pengakuan dari Kementerian Lingkungan Hidup.</p>
+          </div>
+        </div>
+
+        <!-- Berita Kecil 2 -->
+        <div class="berita-card fade-up">
+          <div class="berita-img" style="background:linear-gradient(135deg,#7C3AED,#5b21b6)">
+            <div class="berita-kategori">🎭 Kegiatan</div>
+            🎨
+          </div>
+          <div class="berita-body">
+            <div class="berita-meta"><span>📅 2 Juni 2024</span></div>
+            <h3><a href="#">Pameran Karya Siswa DKV Tampilkan Ratusan Karya Terbaik</a></h3>
+            <p>Pameran tahunan jurusan DKV kembali digelar dan berhasil menarik ribuan pengunjung.</p>
+          </div>
+        </div>
+
+        <!-- Berita Kecil 3 -->
+        <div class="berita-card fade-up">
+          <div class="berita-img" style="background:linear-gradient(135deg,#DC2626,#991b1b)">
+            <div class="berita-kategori">⚙️ Industri</div>
+            🏭
+          </div>
+          <div class="berita-body">
+            <div class="berita-meta"><span>📅 28 Mei 2024</span></div>
+            <h3><a href="#">MOU Baru dengan 15 Perusahaan di Kawasan Industri Karawang</a></h3>
+            <p>SMKN 1 Cikampek menandatangani kerja sama PKL dan rekrutmen dengan 15 perusahaan baru.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Sidebar Pengumuman -->
+      <div class="sidebar-pengumuman fade-up">
+        <div class="sidebar-header">
+          <div class="sidebar-header-icon">📋</div>
+          <h3>Pengumuman Terbaru</h3>
+        </div>
+        <div class="pengumuman-item">
+          <div class="pengumuman-img">📋</div>
+          <div class="pengumuman-text">
+            <p>PPDB Jalur Reguler TA 2024/2025 Dibuka</p>
+            <p>📅 1 Juni 2024</p>
+          </div>
+        </div>
+        <div class="pengumuman-item">
+          <div class="pengumuman-img">📝</div>
+          <div class="pengumuman-text">
+            <p>Jadwal Ujian Tengah Semester Ganjil 2024</p>
+            <p>📅 28 Mei 2024</p>
+          </div>
+        </div>
+        <div class="pengumuman-item">
+          <div class="pengumuman-img">🎓</div>
+          <div class="pengumuman-text">
+            <p>Pengumuman Kelulusan Siswa Kelas XII TA 2023/2024</p>
+            <p>📅 20 Mei 2024</p>
+          </div>
+        </div>
+        <div class="pengumuman-item">
+          <div class="pengumuman-img">💰</div>
+          <div class="pengumuman-text">
+            <p>Laporan Dana BOS Triwulan I 2024 Tersedia</p>
+            <p>📅 15 Mei 2024</p>
+          </div>
+        </div>
+        <div class="pengumuman-item">
+          <div class="pengumuman-img">🏃</div>
+          <div class="pengumuman-text">
+            <p>Pendaftaran Ekskul Baru Semester Ganjil 2024</p>
+            <p>📅 10 Mei 2024</p>
+          </div>
+        </div>
+        <div class="sidebar-footer">
+          <a href="informasi/berita.html">Lihat Semua Pengumuman →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PRESTASI ═══════════ -->
+<section class="section section-alt" id="prestasi">
+  <div class="container">
+    <div class="section-header-row">
+      <div class="fade-up">
+        <span class="section-label">Pencapaian</span>
+        <h2 class="section-title">Prestasi Sekolah</h2>
+        <p class="section-subtitle">Deretan pencapaian membanggakan dari siswa dan guru SMKN 1 Cikampek.</p>
+      </div>
+      <a href="informasi/prestasi.html" class="btn-lihat-semua fade-up">Lihat Semua →</a>
+    </div>
+
+    <!-- Highlight Cards -->
+    <div class="prestasi-grid-highlight" style="margin-bottom:28px">
+      <div class="prestasi-card-hl fade-up">
+        <span class="emoji">🥇</span>
+        <h3>Juara 1 LKS TKJ Provinsi Jawa Barat</h3>
+        <p>Lomba Kompetensi Siswa Tingkat Provinsi 2024</p>
+        <div class="badge-float">🏅 Provinsi</div>
+      </div>
+      <div class="prestasi-card-hl fade-up">
+        <span class="emoji">🤖</span>
+        <h3>Juara 2 KRCI Nasional</h3>
+        <p>Kontes Robot Cerdas Indonesia Nasional 2024</p>
+        <div class="badge-float">🌟 Nasional</div>
+      </div>
+      <div class="prestasi-card-hl fade-up">
+        <span class="emoji">🎨</span>
+        <h3>Best Design O2SN DKV</h3>
+        <p>Olimpiade Olahraga Siswa Nasional 2023</p>
+        <div class="badge-float">🌟 Nasional</div>
+      </div>
+    </div>
+
+    <!-- List Prestasi -->
+    <div class="prestasi-list">
+      <div class="prestasi-item fade-up">
+        <div class="prestasi-rank" style="background:#FEF3C7">🥇</div>
+        <div class="prestasi-info">
+          <h4>Juara 1 Debat Bahasa Inggris Tingkat Kabupaten Karawang</h4>
+          <p>Tim Debat SMKN 1 Cikampek · Maret 2024</p>
+        </div>
+        <span class="prestasi-badge badge-kota">🏙️ Kabupaten</span>
+      </div>
+      <div class="prestasi-item fade-up">
+        <div class="prestasi-rank" style="background:#DBEAFE">🥈</div>
+        <div class="prestasi-info">
+          <h4>Juara 2 Futsal Pelajar Tingkat Provinsi Jawa Barat</h4>
+          <p>Tim Futsal Putra SMKN 1 Cikampek · Februari 2024</p>
+        </div>
+        <span class="prestasi-badge badge-provinsi">📍 Provinsi</span>
+      </div>
+      <div class="prestasi-item fade-up">
+        <div class="prestasi-rank" style="background:#D1FAE5">🏅</div>
+        <div class="prestasi-info">
+          <h4>Best Project Karya Ilmiah Remaja Tingkat Nasional</h4>
+          <p>Tim KIR — Inovasi Pengolahan Limbah Industri · Januari 2024</p>
+        </div>
+        <span class="prestasi-badge badge-nasional">🌟 Nasional</span>
+      </div>
+      <div class="prestasi-item fade-up">
+        <div class="prestasi-rank" style="background:#FCE7F3">🥉</div>
+        <div class="prestasi-info">
+          <h4>Juara 3 OSN Matematika Tingkat Kabupaten</h4>
+          <p>Rifqi Ananda · Olimpiade Sains Nasional 2024</p>
+        </div>
+        <span class="prestasi-badge badge-kota">🏙️ Kabupaten</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SAMBUTAN KEPSEK ═══════════ -->
+<section class="section">
+  <div class="container">
+    <div class="sambutan-grid">
+      <div class="sambutan-img-wrap fade-up">
+        <div class="sambutan-img-placeholder">👨‍💼</div>
+        <p class="sambutan-nama">Drs. Budi Santoso, M.Pd</p>
+        <p class="sambutan-jabatan">Kepala SMKN 1 Cikampek</p>
+      </div>
+      <div class="fade-up">
+        <span class="section-label">Sambutan</span>
+        <h2 class="section-title">Sambutan Kepala Sekolah</h2>
+        <div class="sambutan-quote">
+          <span class="quote-mark">"</span>
+          <p>
+            Assalamu'alaikum Warahmatullahi Wabarakatuh. Di era revolusi industri 4.0 dan society 5.0,
+            institusi pendidikan vokasi memikul tanggung jawab besar untuk mencetak lulusan yang tidak
+            hanya kompeten secara teknis, tetapi juga memiliki karakter kuat dan adaptif terhadap
+            perubahan. SMKN 1 Cikampek berkomitmen untuk terus berinovasi dalam layanan pendidikan
+            demi menghasilkan generasi yang unggul dan berdaya saing global.
+          </p>
+        </div>
+        <a href="profil/visi-misi.html" class="btn-primary">Baca Selengkapnya →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ GURU CAROUSEL ═══════════ -->
+<section class="section section-alt" id="guru">
+  <div class="container">
+    <div class="section-header-row">
+      <div class="fade-up">
+        <span class="section-label">Tim Pengajar</span>
+        <h2 class="section-title">Staff &amp; Guru</h2>
+      </div>
+      <a href="profil/staff-guru.html" class="btn-lihat-semua fade-up">Lihat Semua →</a>
+    </div>
+    <div class="guru-carousel-wrap fade-up">
+      <div class="guru-carousel">
+
+        <div class="guru-card">
+          <div class="guru-avatar" style="background:linear-gradient(135deg,#DBEAFE,#EFF6FF)">👨‍💼</div>
+          <div class="guru-body">
+            <h4>Drs. Budi Santoso, M.Pd</h4>
+            <p>Kepala Sekolah</p>
+            <span class="guru-mapel">Manajemen</span>
+          </div>
+        </div>
+
+        <div class="guru-card">
+          <div class="guru-avatar" style="background:linear-gradient(135deg,#DCFCE7,#F0FDF4)">👩‍🏫</div>
+          <div class="guru-body">
+            <h4>Sri Wahyuni, S.Pd, M.Pd</h4>
+            <p>Waka Kurikulum</p>
+            <span class="guru-mapel">Matematika</span>
+          </div>
+        </div>
+
+        <div class="guru-card">
+          <div class="guru-avatar" style="background:linear-gradient(135deg,#FEF3C7,#FFFBEB)">👨‍🔬</div>
+          <div class="guru-body">
+            <h4>Ahmad Rizki, S.T, M.T</h4>
+            <p>Ketua Jurusan TKJ</p>
+            <span class="guru-mapel">Jaringan</span>
+          </div>
+        </div>
+
+        <div class="guru-card">
+          <div class="guru-avatar" style="background:linear-gradient(135deg,#FCE7F3,#FDF2F8)">👩‍💼</div>
+          <div class="guru-body">
+            <h4>Dewi Kusuma, S.Pd</h4>
+            <p>Waka Kesiswaan</p>
+            <span class="guru-mapel">Bahasa Inggris</span>
+          </div>
+        </div>
+
+        <div class="guru-card">
+          <div class="guru-avatar" style="background:linear-gradient(135deg,#E0E7FF,#EEF2FF)">👨‍💻</div>
+          <div class="guru-body">
+            <h4>Reza Pratama, S.Kom</h4>
+            <p>Guru TKJ</p>
+            <span class="guru-mapel">Informatika</span>
+          </div>
+        </div>
+
+        <div class="guru-card">
+          <div class="guru-avatar" style="background:linear-gradient(135deg,#FDE8E8,#FEF2F2)">👩‍🔬</div>
+          <div class="guru-body">
+            <h4>Sari Indah, S.T, M.T</h4>
+            <p>Ketua Jurusan TP</p>
+            <span class="guru-mapel">Pemesinan</span>
+          </div>
+        </div>
+
+        <div class="guru-card">
+          <div class="guru-avatar" style="background:linear-gradient(135deg,#ECFDF5,#D1FAE5)">👨‍🏫</div>
+          <div class="guru-body">
+            <h4>Hendra Gunawan, S.Pd</h4>
+            <p>Guru Olahraga</p>
+            <span class="guru-mapel">PJOK</span>
+          </div>
+        </div>
+
+        <div class="guru-card">
+          <div class="guru-avatar" style="background:linear-gradient(135deg,#F5F3FF,#EDE9FE)">👩‍🎨</div>
+          <div class="guru-body">
+            <h4>Rina Safitri, S.Ds</h4>
+            <p>Ketua Jurusan DKV</p>
+            <span class="guru-mapel">Desain Grafis</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="carousel-nav">
+      <button class="carousel-btn prev" aria-label="Sebelumnya">&#8592;</button>
+      <button class="carousel-btn next" aria-label="Berikutnya">&#8594;</button>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ EKSTRAKURIKULER ═══════════ -->
+<section class="section" id="ekskul">
+  <div class="container">
+    <div class="section-header-row">
+      <div class="fade-up">
+        <span class="section-label">Kegiatan Siswa</span>
+        <h2 class="section-title">Ekstrakurikuler</h2>
+        <p class="section-subtitle">Kembangkan minat dan bakat di luar kelas bersama komunitas yang aktif.</p>
+      </div>
+      <a href="informasi/ekskul.html" class="btn-lihat-semua fade-up">Lihat Semua →</a>
+    </div>
+    <div class="ekskul-tags fade-up">
+      <div class="ekskul-tag"><span class="tag-icon">🤖</span> Robotika <span class="tag-count">42 anggota</span></div>
+      <div class="ekskul-tag"><span class="tag-icon">⚽</span> Futsal <span class="tag-count">35 anggota</span></div>
+      <div class="ekskul-tag"><span class="tag-icon">🥋</span> Pencak Silat <span class="tag-count">48 anggota</span></div>
+      <div class="ekskul-tag"><span class="tag-icon">🎭</span> Teater <span class="tag-count">30 anggota</span></div>
+      <div class="ekskul-tag"><span class="tag-icon">🎻</span> Paduan Suara <span class="tag-count">60 anggota</span></div>
+      <div class="ekskul-tag"><span class="tag-icon">🎨</span> Seni Rupa <span class="tag-count">38 anggota</span></div>
+      <div class="ekskul-tag"><span class="tag-icon">📸</span> Fotografi <span class="tag-count">25 anggota</span></div>
+      <div class="ekskul-tag"><span class="tag-icon">🧘</span> Pramuka <span class="tag-count">120 anggota</span></div>
+      <div class="ekskul-tag"><span class="tag-icon">💻</span> Coding Club <span class="tag-count">44 anggota</span></div>
+      <div class="ekskul-tag"><span class="tag-icon">📰</span> Jurnalistik <span class="tag-count">22 anggota</span></div>
+      <div class="ekskul-tag"><span class="tag-icon">🏸</span> Badminton <span class="tag-count">40 anggota</span></div>
+      <div class="ekskul-tag"><span class="tag-icon">🎤</span> Seni Tari <span class="tag-count">36 anggota</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer class="footer" id="contact">
+  <div class="footer-top">
+    <div class="container footer-grid">
+
+      <!-- Brand -->
+      <div class="fade-up">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:4px">
+          <div style="width:46px;height:46px;background:#F5C518;border-radius:10px;
+            display:flex;align-items:center;justify-content:center;
+            font-size:20px;font-weight:900;color:#1B2A4A;font-family:'Playfair Display',serif">S</div>
+          <div>
+            <p style="font-size:16px;font-weight:800;color:#fff;line-height:1.2">SMKN 1 Cikampek</p>
+            <p style="font-size:11px;color:rgba(255,255,255,0.4);letter-spacing:0.5px">Karawang, Jawa Barat</p>
+          </div>
+        </div>
+        <p class="footer-brand-desc">
+          Mewujudkan generasi terampil, berkarakter, dan berdaya saing global
+          melalui pendidikan vokasi berkualitas.
+        </p>
+        <div class="footer-social">
+          <a href="#" target="_blank" title="Instagram">📸</a>
+          <a href="#" target="_blank" title="Facebook">📘</a>
+          <a href="#" target="_blank" title="YouTube">▶️</a>
+          <a href="#" target="_blank" title="WhatsApp">💬</a>
+          <a href="#" target="_blank" title="Twitter/X">🐦</a>
+        </div>
+        <!-- Google Maps Embed -->
+        <div class="footer-map-embed">
+          <iframe
+            src="https://maps.google.com/maps?q=SMKN+1+Cikampek+Karawang&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            allowfullscreen="" loading="lazy"
+            title="Lokasi SMKN 1 Cikampek"></iframe>
+        </div>
+      </div>
+
+      <!-- Profil Links -->
+      <div class="fade-up">
+        <h4>Profil Sekolah</h4>
+        <div class="footer-links">
+          <a href="profil/visi-misi.html">Visi &amp; Misi</a>
+          <a href="profil/fasilitas.html">Fasilitas</a>
+          <a href="profil/jurusan.html">Jurusan</a>
+          <a href="profil/struktur-organisasi.html">Struktur Organisasi</a>
+          <a href="profil/staff-guru.html">Staff &amp; Guru</a>
+          <a href="keuangan/bos.html">Laporan BOS</a>
+          <a href="keuangan/apbd.html">Laporan APBD</a>
+        </div>
+      </div>
+
+      <!-- Informasi Links -->
+      <div class="fade-up">
+        <h4>Informasi</h4>
+        <div class="footer-links">
+          <a href="informasi/berita.html">Berita Sekolah</a>
+          <a href="informasi/prestasi.html">Prestasi</a>
+          <a href="informasi/ekskul.html">Ekstrakurikuler</a>
+          <a href="#">Kalender Akademik</a>
+          <a href="#">PPDB Online</a>
+          <a href="#">Galeri Foto</a>
+          <a href="https://kurikulum.kemdikbud.go.id" target="_blank">Kurikulum ↗</a>
+        </div>
+      </div>
+
+      <!-- Kontak -->
+      <div class="fade-up">
+        <h4>Hubungi Kami</h4>
+        <div class="footer-contact-list">
+          <div class="footer-contact-item">
+            <span class="icon">📍</span>
+            <p>Jl. Ahmad Yani No. 1, Cikampek, Karawang, Jawa Barat 41373</p>
+          </div>
+          <div class="footer-contact-item">
+            <span class="icon">📞</span>
+            <p>(0264) 316xxx</p>
+          </div>
+          <div class="footer-contact-item">
+            <span class="icon">📠</span>
+            <p>Fax: (0264) 316xxx</p>
+          </div>
+          <div class="footer-contact-item">
+            <span class="icon">✉️</span>
+            <p>info@smkn1cikampek.sch.id</p>
+          </div>
+          <div class="footer-contact-item">
+            <span class="icon">🕐</span>
+            <p>Senin – Jumat: 07.00 – 15.30 WIB</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="container">
+    <div class="footer-bottom">
+      <p>© 2024 SMKN 1 Cikampek. Hak Cipta Dilindungi Undang-Undang.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Kebijakan Privasi</a>
+        <a href="#">Peta Situs</a>
+        <a href="#">Aksesibilitas</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- BACK TO TOP -->
+<button class="back-to-top" aria-label="Kembali ke atas">↑</button>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
